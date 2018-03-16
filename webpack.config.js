@@ -11,11 +11,11 @@ module.exports = {
 
     devServer: {
         contentBase:'./dist',
-        open: true,
+        //open: true,
         compress: true,
         hot: true,
         historyApiFallback: true,
-        port: 9000
+       // port: 9000
         
     },
     module: {
