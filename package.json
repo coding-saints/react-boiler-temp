@@ -6,11 +6,7 @@
   "scripts": {
     "build": "webpack",
     "dev": "webpack-dev-server",
-<<<<<<< HEAD
-    "cloud": "webpack-dev-server --host $IP --port $PORT --public $C9_HOSTNAME",
-=======
     "cloud": "webpack-dev-server --config webpack.config.js --host $IP --port $PORT --public $C9_HOSTNAME",
->>>>>>> master
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
