@@ -3,6 +3,7 @@ import React from 'react'
 import {render} from 'react-dom'
 
 const ThemeContext = React.createContext('light')
+
 class ThemeProvider extends React.Component {
   state = {theme: 'light'}
   toggleTheme = () => {
